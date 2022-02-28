@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00b193" />
+    <title>Fake Mail</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <input type="text" spellcheck="false" placeholder="Gmail" id="gmail" />
+      <input
+        type="text"
+        spellcheck="false"
+        placeholder="Subject"
+        id="subject"
+      />
+      <textarea
+        spellcheck="false"
+        id="message"
+        placeholder="Message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div id="add">+Add</div>
+    </section>
+    <section>
+      <div id="content"></div>
+    </section>
+    <div id="buttons">
+      <div id="start">Start</div>
+      <div id="stop">Stop</div>
+      <div id="reset">Reste</div>
+      <div id="count">
+        Count:
+        <p>0</p>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
