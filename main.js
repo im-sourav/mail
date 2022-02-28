@@ -19,8 +19,8 @@ const addDoc = (Mail, Message, Subject) => {
         <div class="split">
             <div class="delete">Delete</div>
             <div class="mail">Mail: ${Mail}</div>
-            <div class="message">Message: ${Message}</div>
             <div class="subject">Subject: ${Subject}</div>
+            <div class="message">Message: ${Message}</div>
         </div>`;
 };
 const sendMail = (Mail, Subject, Message) => {

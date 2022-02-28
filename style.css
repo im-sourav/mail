@@ -27,8 +27,8 @@ section:first-child {
 input {
   position: relative;
   padding: 5px 10px;
-  width: 380px;
-  font-size: 1.8rem;
+  width: 350px;
+  font-size: 1.6rem;
   caret-color: #00f;
   color: #000000;
   background: transparent;
@@ -40,10 +40,10 @@ input {
 }
 textarea {
   position: relative;
-  width: 380px;
+  width: 350px;
   height: 100px;
   padding: 5px 10px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   caret-color: #00f;
   resize: none;
   color: #000000;
@@ -94,7 +94,7 @@ section:nth-child(2) {
 }
 #content .split {
   position: relative;
-  height: 60px;
+  height: 65px;
   display: grid;
   grid-template-rows: repeat(1fr 3);
   background: #eee;
@@ -139,25 +139,24 @@ section:nth-child(2) {
 }
 #buttons {
   position: fixed;
-  top: 0;
-  left: 10px;
+  top: 10px;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   user-select: none;
 }
 #buttons div {
   position: relative;
-  width: 100px;
+  width: 60px;
   height: 40px;
   background: #00db21;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin: 0 10px;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-family: sans-serif;
   border-radius: 3px;
   box-shadow: 1px 1px 4px #00000099;
@@ -171,7 +170,7 @@ section:nth-child(2) {
   background: #00f;
 }
 #buttons div:nth-child(4) {
-  font-size: 1.3rem;
+  font-size: .8rem;
   margin: 0;
   color: #000;
   background: transparent;
@@ -179,11 +178,14 @@ section:nth-child(2) {
   cursor: default;
 }
 #buttons div:nth-child(4) p {
-  font-size: 1.3rem;
   color: #f00;
   margin-left: 3px;
 }
 #buttons div:hover {
   box-shadow: 0 0 2px #000;
-  font-size: 1.3rem;
+  font-size: .9rem;
+}
+#buttons div:nth-child(4):hover {
+  box-shadow: 0;
+  font-size: .8rem;
 }
